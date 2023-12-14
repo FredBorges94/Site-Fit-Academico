@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(45deg, #780f5ae7, #f46252bd);
+
+}
+
+#cuboContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #780f5ae1, #f46252c2);
+}
+
+#cuboHeader,
+#cuboFooter {
+    background: linear-gradient(45deg, #780f5a59, #f46252c2);
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+#carrinhoContainer {
+    background-color: #ffffff;
+    color: #F46152;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+#carrinhoTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#carrinhoTable th,
+#carrinhoTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#carrinhoTable th {
+    background-color: #f2f2f2;
+}
+
+#totalCarrinho {
+    font-weight: bold;
+    color: #780f5ae1;
+}
+
+#finalizarCompra {
+    background-color: #F46152;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contato {
+    background-color: #F46152;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizarCompra:hover {
+    background-color: #9c0734d2;
+}
+
+#contato:hover {
+    background-color: #780f5ae1;
+}
