@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="styleHome.css">
+    
+    <link rel="stylesheet" href="menuFooter.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet" />
+
+    <link rel="icon" href="logo&favicon/logo&favicon/favicon.ico" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header id="header">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menuPrincipal">
+
+            <div class="container" >
+                <!-- Logo da empresa -->
+                <a class="navbar-brand" href="#">
+                    <img src="logo_laranja.png" alt="Logo da Empresa" width="200">
+                </a>
+                
+                <!-- Botão de hamburguer para telas pequenas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                <!-- Itens do menu à direita -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                   
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#informacoes">QUEM SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#planosMensais">PLANOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cadastro.html">CADASTRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </nav>
+
+        
+    </header>
+
+     <div id="cuboContainer">
+
+        <div id="cuboHeader">
+            <h1>Carrinho de Compras</h1>
+        </div>
+
+        <div id="carrinhoContainer">
+
+            <!-- A tabela onde os itens do carrinho serão exibidos -->
+            <table id="carrinhoTable">
+                <thead>
+                    <tr>
+                        <th>Plano</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aqui serão inseridos dinamicamente os itens do carrinho -->
+                </tbody>
+            </table>
+
+            <!-- Exibição do valor total -->
+            <p>Total: <span id="totalCarrinho"></span></p>
+
+            <!-- Botão para finalizar a compra -->
+           <a href="Planos.html"> <button id="finalizarCompra">Finalizar Compra</button></a>
+           
+           <a href="contato.html"> <button id="contato">Fale conosco</button></a>
+
+
+        </div>
+
+        <div id="cuboFooter">
+            <p>© 2023 Fit Center</p>
+        </div>
+
+    </div>
+
+    
+
+
+    <script src="carrinho.js"></script>
+</body>
+
+</html>
