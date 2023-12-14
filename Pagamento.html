@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="pagamento.css">
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Dados Cadastrais</h3>
+
+                <div class="inputBox">
+                    <span><label id="labelNome" for="nome"> Nome Completo </label></span>
+                    <input id="nome" type="text" placeholder="" required>
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelEmail" for="email"> Email </label></span>
+                    <input id="email" type="text" placeholder=""required>
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelEndereco" for="endereco"> Endereço </label></span>
+                    <input id="endereco" type="text" placeholder="bairro, rua, número"required>
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelCidade" for="cidade"> Cidade </label></span>
+                    <input id="cidade" type="text" placeholder=""required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span><label id="labelEstado" for="nome"> Estado </label></span>
+                        <input id="estado" type="text" placeholder=""required>
+                    </div>
+                    <div class="inputBox">
+                        <span><label id="labelCep" for="nome"> CEP </label></span>
+                        <input id="cep" type="number" placeholder=""required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pagamento</h3>
+
+                <div class="inputBox">
+                    <span>Cartões</span>
+                    <img src="logo&favicon/logo&favicon/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelCpf" for="nome"> CPF :</label></span>
+                    <input id="cpf" type="number" placeholder=""required>
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelCartao" for="nome"> Numero do cartão</label></span>
+                    <input id="cartao" type="number" placeholder=""required>
+                </div>
+                <div class="inputBox">
+                    <span><label id="labelMes" for="nome"> Mes validade</label></span>
+                    <input id="mesValidade" type="number" placeholder=""required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span><label id="labelAno" for="nome"> Ano validade :</label></span>
+                        <input id="anoValidade" type="number" placeholder=""required>
+                    </div>
+                    <div class="inputBox">
+                        <span><label id="labelCvv" for="nome"> CVV :</label></span>
+                        <input id="cvv" type="password" placeholder=""required>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Confirmar Pagamento" class="submit-btn" onclick='cadastrar()'>
+
+    </form>
+
+</div>    
+<script src="./formulario.js"></script>
+</body>
+</html>
