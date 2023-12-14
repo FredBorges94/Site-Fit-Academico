@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/* ------------------- INÍCIO PAGINA DE LOGIN --------------------------  */
+
+
+    /* ------------------- BODY PAGINA DE LOGIN --------------------------  */
+
+        .bodyLogin{
+
+            background-color: purple;
+            padding: 150px;
+            margin-bottom: -30px;
+        }
+
+        .card-title{
+
+            color: #F46152 !important;
+        }
+        
+        .inputEmail{
+
+            margin-top: 15px;
+            
+            margin-bottom: 15px;
+        }
+
+        .inputSenha{
+
+            margin-top: 15px;
+            
+            margin-bottom: 15px;
+        }
+
+        .emailLogin{
+
+            font-weight: bolder;            
+        }
+
+        .esqueceuSenhaLogin{
+
+            color: #F46152 !important;
+            margin-bottom: 15px;
+        }
+
+        .botaoLogin{
+
+            background-color: purple !important;
+            border-width: 2px !important; /* largura da borda */
+            border-style: solid !important; /* estilo da borda */
+            border-color: purple !important; /* cor da borda */
+        }
+         a.linkCadastroLogin{
+            color:white;
+        }
+     /* ------------------- FIM BODY PAGINA DE LOGIN --------------------------  */
+
+/* ------------------- FIM PAGINA DE LOGIN --------------------------  */
+
+
+
+/* PAGINA DE PAGAMENTO/*/
+
+.cardButton {
+    background-color: transparent !important; /* Torna o fundo transparente */
+  }
